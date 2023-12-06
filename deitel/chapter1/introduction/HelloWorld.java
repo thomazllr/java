@@ -1,4 +1,4 @@
-package deitel.Aclasses;
+package deitel.chapter1.introduction;
 
 public class HelloWorld {
     public static void main(String[] args) {
