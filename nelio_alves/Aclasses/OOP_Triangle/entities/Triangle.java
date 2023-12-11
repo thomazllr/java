@@ -1,4 +1,4 @@
-package nelio_alves.Aclasses.withOOP.entities;
+package nelio_alves.Aclasses.OOP_Triangle.entities;
 
 public class Triangle {
     public double a;

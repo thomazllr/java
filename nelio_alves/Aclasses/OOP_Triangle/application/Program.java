@@ -1,5 +1,5 @@
-package nelio_alves.Aclasses.withOOP.application;
-import nelio_alves.Aclasses.withOOP.entities.Triangle;
+package nelio_alves.Aclasses.OOP_Triangle.application;
+import nelio_alves.Aclasses.OOP_Triangle.entities.Triangle;
 import java.util.Scanner;
 
 public class Program {
