@@ -12,7 +12,7 @@ public class Student {
     }
 
     public int checkStatus() {
-        if (finalGrade()> 54) {
+        if (finalGrade()> 60) {
             return 1;
         }
         else {
