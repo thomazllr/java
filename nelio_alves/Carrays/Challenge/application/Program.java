@@ -13,10 +13,10 @@ public class Program {
         int n = sc.nextInt();
         sc.nextLine();
 
-        Student[] students = new Student[9];
+        Student[] students = new Student[10];
 
         for (int i = 0; i < n; i++) {
-            System.out.printf("\n\nRent #%d\n\n", i + 1);
+            System.out.printf("\n\nRent #%d", i + 1);
             System.out.println("Name: ");
             String name = sc.nextLine();
             System.out.println("Email: ");
