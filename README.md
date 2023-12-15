@@ -6,7 +6,7 @@
 - [X] [Classes e Objetos](https://github.com/thomazllr/java/tree/main/nelio_alves/Aclasses)
 - [ ] Construtores, Sobrecarga e Encapsulamento
 - [ ] Arrays e Listas
-- [ ] Enumereções e Composição 
+- [ ] Enumerações e Composição 
 - [ ] Herança e Polimorfismo
 - [ ] Tratamento de erros
 - [ ] Arquivos
