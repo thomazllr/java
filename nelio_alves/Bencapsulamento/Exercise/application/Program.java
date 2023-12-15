@@ -38,6 +38,5 @@ public class Program {
         account.withdrawValue(balance);
         System.out.println(account);
 
-
     }
 }
