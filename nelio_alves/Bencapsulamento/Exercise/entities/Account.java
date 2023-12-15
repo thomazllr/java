@@ -34,7 +34,7 @@ public class Account {
     }
 
     public double withdrawValue(double value) {
-        return balance -= value;
+        return balance = balance - value - 5.0;
     }
 
     @Override
