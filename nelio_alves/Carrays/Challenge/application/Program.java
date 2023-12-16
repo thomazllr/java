@@ -16,7 +16,7 @@ public class Program {
         Student[] students = new Student[10];
 
         for (int i = 0; i < n; i++) {
-            System.out.printf("\n\nRent #%d", i + 1);
+            System.out.printf("\n\nRent #%d\n", i + 1);
             System.out.println("Name: ");
             String name = sc.nextLine();
             System.out.println("Email: ");
