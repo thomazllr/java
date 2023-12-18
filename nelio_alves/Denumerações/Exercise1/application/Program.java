@@ -1,5 +1,6 @@
 package nelio_alves.Denumerações.Exercise1.application;
 
+import nelio_alves.Denumerações.Exercise1.entities.Department;
 import nelio_alves.Denumerações.Exercise1.entities.HourContract;
 import nelio_alves.Denumerações.Exercise1.entities.Worker;
 import nelio_alves.Denumerações.Exercise1.entities.enums.WorkerLevel;
@@ -15,7 +16,7 @@ public class Program {
 
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         System.out.print("Enter department's name: ");
-        String department = sc.nextLine();
+        String departmentName = sc.nextLine();
 
         System.out.println("Enter worker data: ");
         System.out.print("Name: ");
@@ -26,7 +27,7 @@ public class Program {
         Double salary = sc.nextDouble();
         sc.nextLine();
 
-        Worker worker = new Worker(name, WorkerLevel.valueOf(level), salary);
+        Worker worker = new Worker(name, WorkerLevel.valueOf(level), salary, new Department(departmentName));
 
         System.out.print("How many contracts to this worker? ");
         int n = sc.nextInt();
@@ -40,16 +41,19 @@ public class Program {
             System.out.print("Value per hour: ");
             Double value = sc.nextDouble();
             sc.nextLine();
-            System.out.println("Duration (hours): ");
+            System.out.print("Duration (hours): ");
             Integer hours = sc.nextInt();
             sc.nextLine();
             HourContract contract = new HourContract(date, value, hours);
             worker.addContract(contract);
         }
-        SimpleDateFormat formatter2 = new SimpleDateFormat("/MM/yyyy");
+
         System.out.println("Enter month and year to calculate income (MM/YYYY): ");
-        String data = sc.nextLine();
-        Date date = formatter2.parse(data);
+        String monthAndYear = sc.next();
+        int month = Integer.parseInt(monthAndYear.substring(0, 2));
+        int year = Integer.parseInt(monthAndYear.substring(3));;
+        System.out.println(worker);
+        System.out.println("Income: " + month + "/" + year + " " + String.format("%.2f", worker.income(month, year)));
 
 
 

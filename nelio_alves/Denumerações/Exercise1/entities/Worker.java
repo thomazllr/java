@@ -17,10 +17,11 @@ public class Worker {
     List<HourContract> contracts = new ArrayList<>();
 
 
-    public Worker(String name, WorkerLevel level, Double baseSalary) {
+    public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
         this.name = name;
         this.level = level;
         this.baseSalary = baseSalary;
+        this.department = department;
     }
     public void addContract(HourContract contract) {
         contracts.add(contract);
@@ -30,16 +31,23 @@ public class Worker {
         contracts.remove(contract);
     }
 
-    public void income(Integer month, Integer year) {
+    public double income(Integer month, Integer year) {
         Calendar cal = Calendar.getInstance();
-        int cont = 0;
+        Double cont = baseSalary;
         for (HourContract c : contracts) {
             cal.setTime(c.getDate());
             int contractMonth = cal.get(Calendar.MONTH) + 1;
             int contractYear = cal.get(Calendar.YEAR);
-
-            cont += c.totalValue();
+            if(month == contractMonth && year == contractYear) {
+                cont += c.totalValue();
+            }
         }
+        return cont;
     }
 
+    @Override
+    public String toString() {
+        return "Name: " + name + "\n" +
+                "Department: " + department.getName();
+    }
 }
