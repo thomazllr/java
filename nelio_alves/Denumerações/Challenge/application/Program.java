@@ -54,11 +54,6 @@ public class Program {
         System.out.println(order);
 
 
-
-
-
-
-
         sc.close();
     }
 }
