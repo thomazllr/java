@@ -1,13 +1,14 @@
 package nelio_alves.Denumerações.Challenge.entities;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Client {
     private String name;
     private String email;
-    private Date birthDate;
+    private LocalDate birthDate;
 
-    public Client(String name, String email, Date birthDate) {
+    public Client(String name, String email, LocalDate birthDate) {
         this.name = name;
         this.email = email;
         this.birthDate = birthDate;
@@ -34,11 +35,11 @@ public class Client {
         this.email = email;
     }
 
-    public Date getBirthDate() {
+    public LocalDate getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(Date birthDate) {
+    public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
 }

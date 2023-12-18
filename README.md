@@ -18,3 +18,7 @@
 
 # Deitel Book
   - [ ] ``Loading...🚧``
+
+## Special Topics
+- [ ] Data e Hora
+- [ ] Strings

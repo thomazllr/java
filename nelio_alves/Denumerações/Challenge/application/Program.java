@@ -8,14 +8,14 @@ import nelio_alves.Denumerações.Challenge.entities.enums.OrderStatus;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) throws ParseException {
         Scanner sc = new Scanner(System.in);
-
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
         System.out.println("Enter cliente data: ");
         System.out.print("Name: ");
@@ -24,7 +24,8 @@ public class Program {
         String email = sc.nextLine();
         System.out.print("Birthday: ");
         String birthday = sc.nextLine();
-        Client client = new Client(name, email, sdf.parse(birthday));
+        LocalDate date = LocalDate.parse(birthday, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+        Client client = new Client(name, email, date);
 
         System.out.println("Enter order data: ");
         System.out.print("Status: ");
