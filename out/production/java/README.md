@@ -20,5 +20,5 @@
   - [ ] ``Loading...🚧``
 
 ## Special Topics
-- [ ] Data e Hora
+- [X] [Data e Hora](https://github.com/thomazllr/java/tree/main/SpecialTopics/Data_Hora/application)
 - [ ] Strings

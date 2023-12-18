@@ -1,7 +1,6 @@
 package nelio_alves.Denumerações.Challenge.entities;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Client {
     private String name;

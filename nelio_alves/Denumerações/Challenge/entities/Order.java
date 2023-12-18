@@ -1,15 +1,14 @@
 package nelio_alves.Denumerações.Challenge.entities;
 
 import nelio_alves.Denumerações.Challenge.entities.enums.OrderStatus;
-
-import java.text.SimpleDateFormat;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class Order {
 
-    private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+    private static DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     private Date moment;
     private OrderStatus status;
@@ -69,7 +68,7 @@ public class Order {
         StringBuilder sb = new StringBuilder();
         sb.append("Order moment: " + moment + "\n");
         sb.append("Order Status: " + status + "\n");
-        sb.append("Client: " + client.getName() + "(" + client.getBirthDate() + ") - " + client.getEmail() + "\n");
+        sb.append("Client: " + client.getName() + "(" + client.getBirthDate().format(fmt) + ") - " + client.getEmail() + "\n");
         sb.append("Order Items: \n");
         for (OrderItem item : items) {
             sb.append(item.getProduct().getName() + ", Quantity: " + item.getQuantity() + ", Subtotal: " + item.subTotal() + "\n");
