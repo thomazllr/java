@@ -1,7 +1,7 @@
-package nelio_alves.Eheranca.Sobrescrita.application;
+package nelio_alves.Eheranca_polimorfismo.Sobrescrita.application;
 
-import nelio_alves.Eheranca.Sobrescrita.entities.Account;
-import nelio_alves.Eheranca.Sobrescrita.entities.SavingsAccount;
+import nelio_alves.Eheranca_polimorfismo.Sobrescrita.entities.Account;
+import nelio_alves.Eheranca_polimorfismo.Sobrescrita.entities.SavingsAccount;
 
 public class Program {
     public static void main(String[] args) {

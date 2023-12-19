@@ -1,4 +1,4 @@
-package nelio_alves.Eheranca.Sobrescrita.entities;
+package nelio_alves.Eheranca_polimorfismo.UpDownCasting.entities;
 
 public class Account {
     private Integer number;
@@ -35,7 +35,7 @@ public class Account {
     }
 
     public void withdraw(double amount) {
-        balance = balance - amount - 5.0;
+        balance -= amount;
     }
     public void deposite(double amount) {
         balance += amount;

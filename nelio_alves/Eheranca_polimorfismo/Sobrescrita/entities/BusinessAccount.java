@@ -1,4 +1,4 @@
-package nelio_alves.Eheranca.Sobrescrita.entities;
+package nelio_alves.Eheranca_polimorfismo.Sobrescrita.entities;
 
 
 public class BusinessAccount extends Account {

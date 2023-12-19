@@ -1,4 +1,4 @@
-package nelio_alves.Eheranca.UpDownCasting.entities;
+package nelio_alves.Eheranca_polimorfismo.UpDownCasting.entities;
 
 
 public class BusinessAccount extends Account {

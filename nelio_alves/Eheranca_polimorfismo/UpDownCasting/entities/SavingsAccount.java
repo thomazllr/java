@@ -1,4 +1,4 @@
-package nelio_alves.Eheranca.Sobrescrita.entities;
+package nelio_alves.Eheranca_polimorfismo.UpDownCasting.entities;
 
 public class SavingsAccount extends Account {
     private Double interestRate;
@@ -22,10 +22,5 @@ public class SavingsAccount extends Account {
 
     public void updateBalance() {
         balance += balance * interestRate;
-    }
-
-    @Override
-    public void withdraw(double amount) {
-        balance -= amount;
     }
 }

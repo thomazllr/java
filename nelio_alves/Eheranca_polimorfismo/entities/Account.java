@@ -1,4 +1,4 @@
-package nelio_alves.Eheranca.entities;
+package nelio_alves.Eheranca_polimorfismo.entities;
 
 public class Account {
     private Integer number;

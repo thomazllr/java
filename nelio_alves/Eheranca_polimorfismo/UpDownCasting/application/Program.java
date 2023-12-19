@@ -1,8 +1,8 @@
-package nelio_alves.Eheranca.UpDownCasting.application;
+package nelio_alves.Eheranca_polimorfismo.UpDownCasting.application;
 
-import nelio_alves.Eheranca.UpDownCasting.entities.Account;
-import nelio_alves.Eheranca.UpDownCasting.entities.BusinessAccount;
-import nelio_alves.Eheranca.UpDownCasting.entities.SavingsAccount;
+import nelio_alves.Eheranca_polimorfismo.UpDownCasting.entities.Account;
+import nelio_alves.Eheranca_polimorfismo.UpDownCasting.entities.BusinessAccount;
+import nelio_alves.Eheranca_polimorfismo.UpDownCasting.entities.SavingsAccount;
 
 public class Program {
     public static void main(String[] args) {
