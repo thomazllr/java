@@ -16,6 +16,12 @@
 - [ ] Banco de Dados com JDBC
 - [ ] Mapeamento Objeto-Relacional ``Hibernate``
 
+# [Algoritmos e Estrutura de Dados em Java - Loiane](https://youtube.com/playlist?list=PLGxZ4Rq3BOBrgumpzz-l8kFMw2DLERdxi&si=Catr3hI7RK41Iztn)
+- [ ] Vetores e Arrays
+- [ ] Pilhas
+- [ ] Filas
+- [ ] Lista Encadeada
+
 # Deitel Book
   - [ ] ``Loading...🚧``
 
