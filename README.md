@@ -1,6 +1,6 @@
 # Java
 
-# Contents
+# Courses
 
 ## [Nélio Alves Course](https://www.udemy.com/course/java-curso-completo/)
 - [X] [Classes e Objetos](https://github.com/thomazllr/java/tree/main/nelio_alves/Aclasses)
@@ -22,9 +22,17 @@
 - [ ] Filas
 - [ ] Lista Encadeada
 
-# Deitel Book
+---
+# Books
+
+## Deitel Book(https://www.amazon.com.br/Java-como-programar-Paul-Deitel-ebook/dp/B01IPIN4WO)
   - [ ] ``Loading...🚧``
 
+## Algorithms (4th Edition)(https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_1?crid=1Q3HKLCH881BD&keywords=algorithms+sedgewick&qid=1685201150&s=books&sprefix=algorithms+sedgewick%2Cstripbooks-intl-ship%2C163&sr=1-1)
+  - [ ] ``Loading...🚧``
+
+
+---
 ## Special Topics
 - [X] [Data e Hora](https://github.com/thomazllr/java/tree/main/SpecialTopics/Data_Hora/application)
 - [ ] Strings
