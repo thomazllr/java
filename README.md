@@ -25,10 +25,10 @@
 ---
 # Books
 
-## Deitel Book(https://www.amazon.com.br/Java-como-programar-Paul-Deitel-ebook/dp/B01IPIN4WO)
+## [Deitel Book](https://www.amazon.com.br/Java-como-programar-Paul-Deitel-ebook/dp/B01IPIN4WO)
   - [ ] ``Loading...🚧``
 
-## Algorithms (4th Edition)(https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_1?crid=1Q3HKLCH881BD&keywords=algorithms+sedgewick&qid=1685201150&s=books&sprefix=algorithms+sedgewick%2Cstripbooks-intl-ship%2C163&sr=1-1)
+## [Algorithms (4th Edition)](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_1?crid=1Q3HKLCH881BD&keywords=algorithms+sedgewick&qid=1685201150&s=books&sprefix=algorithms+sedgewick%2Cstripbooks-intl-ship%2C163&sr=1-1)
   - [ ] ``Loading...🚧``
 
 
