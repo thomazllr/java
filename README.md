@@ -8,7 +8,7 @@
 - [X] [Arrays e Listas](https://github.com/thomazllr/java/tree/main/nelio_alves/Carrays)
 - [X] [Enumerações e Composição](https://github.com/thomazllr/java/tree/main/nelio_alves/Denumera%C3%A7%C3%B5es)
 - [X] [Herança e Polimorfismo](https://github.com/thomazllr/java/tree/main/nelio_alves/Eheranca_polimorfismo)
-- [ ] Tratamento de erros
+- [ ] [Tratamento de erros](https://github.com/thomazllr/java/tree/main/nelio_alves/Fexceptions/application)
 - [ ] Arquivos
 - [ ] Interfaces
 - [ ] Generics, Set, Map
@@ -17,7 +17,7 @@
 - [ ] Mapeamento Objeto-Relacional ``Hibernate``
 
 # [Algoritmos e Estrutura de Dados em Java - Loiane](https://youtube.com/playlist?list=PLGxZ4Rq3BOBrgumpzz-l8kFMw2DLERdxi&si=Catr3hI7RK41Iztn)
-- [ ] Vetores e Arrays
+- [ ] [Vetores e Arrays](https://github.com/thomazllr/java/tree/main/loiane_groner/AVetores)
 - [ ] Pilhas
 - [ ] Filas
 - [ ] Lista Encadeada
