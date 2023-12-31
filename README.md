@@ -2,9 +2,7 @@
 
 # Courses
 
-## [ ] [Nélio Alves Course](https://github.com/thomazllr/java/blob/main/courses/Nelio%20Alves.md) 
-
-- [ ] teste
+[ ] [Nélio Alves Course](https://github.com/thomazllr/java/blob/main/courses/Nelio%20Alves.md) 
 
 
 
