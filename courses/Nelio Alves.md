@@ -14,3 +14,9 @@
 - [ ] Funcional e Expressões Lambda
 - [ ] Banco de Dados com JDBC
 - [ ] Mapeamento Objeto-Relacional ``Hibernate``
+
+
+---
+## Special Topics
+- [X] [Data e Hora](https://github.com/thomazllr/java/tree/main/SpecialTopics/Data_Hora/application)
+- [ ] Strings
