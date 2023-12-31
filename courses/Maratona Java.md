@@ -8,10 +8,9 @@ Não irei fazer o curso do 0, irei focar nas lacunas do curso do Nélio Alves. E
 - [ ] Coleções
 - [ ] Generics
 - [ ] Classes Internas
-- [ ] Lmabdas, Optional, Streams
+- [ ] Lambdas, Optional, Streams
 - [ ] Threads
 - [ ] Concorrência
 - [ ] Padrões de Projeto
 - [ ] JDBC
 - [ ] Testes Unitários
- 
