@@ -27,5 +27,5 @@
 
 🔴 [Java Concurrency in Practice](https://a.co/d/8FUV7CF)
 
-## 🔴 [Design Patterns: Elements of Reusable Object-Oriented Software](https://a.co/d/143TaQV)
+🔴 [Design Patterns: Elements of Reusable Object-Oriented Software](https://a.co/d/143TaQV)
 
