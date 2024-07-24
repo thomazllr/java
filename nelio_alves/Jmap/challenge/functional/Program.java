@@ -1,16 +1,14 @@
-package nelio_alves.Jmap.challenge.application;
-
-import nelio_alves.Iset.entities.LogEntry;
+package nelio_alves.Jmap.challenge.functional;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.time.Instant;
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
 
 
@@ -26,13 +24,8 @@ public class Program {
                 String[] tokens = line.split(",");
                 String candidato = tokens[0];
                 String voto = tokens[1];
-                if(candidatos.containsKey(candidato)) {
-                    Integer votos = candidatos.get(tokens[0]) + Integer.parseInt(voto);
-                    candidatos.put(candidato, votos);
-                }
-                else {
-                    candidatos.put(candidato, Integer.parseInt(voto));
-                }
+
+                candidatos.merge(candidato, Integer.parseInt(voto), Integer::sum);
 
                 line = br.readLine();
             }
@@ -47,5 +40,4 @@ public class Program {
         }
         sc.close();
     }
-
 }

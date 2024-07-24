@@ -10,7 +10,7 @@
 - [ ] [Tratamento de erros](https://github.com/thomazllr/java/tree/main/nelio_alves/Fexceptions/application)
 - [ ] Arquivos
 - [ ] Interfaces
-- [ ] Generics, Set, Map
+- [X] Generics, Set, Map
 - [ ] Funcional e Expressões Lambda
 - [ ] Banco de Dados com JDBC
 - [ ] Mapeamento Objeto-Relacional ``Hibernate``
