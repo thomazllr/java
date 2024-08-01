@@ -1,5 +1,6 @@
 package test;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -7,7 +8,7 @@ import java.util.Scanner;
 import java.util.function.BiFunction;
 
 public class Program {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Scanner sc = new Scanner(System.in);
 
@@ -20,31 +21,39 @@ public class Program {
 
         String option;
         do {
-            System.out.println("What you want to do: ");
-            System.out.println("+ (Add)\n" +
-                    "- (Minus)\n" +
-                    "/ (Division)\n" +
-                    "* (Mutiply)\n" +
-                    "0 - Exit");
+
+            menu();
             System.out.print("Choose an option: ");
             option = sc.nextLine();
 
-            System.out.print("Number 1: ");
-            Float num1 = sc.nextFloat();
-            System.out.print("Number 2: ");
-            Float num2 = sc.nextFloat();
 
-            var result = namedFunctions.get(option).apply(num1, num2);
+            if (!option.equals("0") && namedFunctions.containsKey(option)) {
+                System.out.print("Number 1: ");
+                Float num1 = sc.nextFloat();
+                System.out.print("Number 2: ");
+                Float num2 = sc.nextFloat();
 
-            System.out.printf("Result: %.2f\n", result);
+                var result = namedFunctions.get(option).apply(num1, num2);
+                System.out.printf("Result: %.2f\n", result);
 
-            System.out.println("Press enter to continue...");
-            sc.nextLine();
-            sc.nextLine();
+                System.out.println("Press enter to continue...");
+                sc.nextLine(); // consume newline left-over
+                sc.nextLine();
+
+            }
 
 
-        } while (!Objects.equals(option, "0"));
+        } while (!option.equals("0"));
 
 
+    }
+
+    public static void menu() {
+        System.out.println("What you want to do: ");
+        System.out.println("+ (Add)\n" +
+                "- (Minus)\n" +
+                "/ (Division)\n" +
+                "* (Mutiply)\n" +
+                "0 - Exit");
     }
 }
