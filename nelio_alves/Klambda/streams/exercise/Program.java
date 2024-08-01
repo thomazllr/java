@@ -31,7 +31,7 @@ public class Program {
                 line = br.readLine();
             }
 
-            Double average = products.values().stream().mapToDouble(Double::doubleValue).average().orElse(0.0);
+            Double average = products.values().stream().mapToDouble(Double::doubleValue).average().getAsDouble();
 
             Stream<String> productsAverage = products.entrySet().
                     stream().
